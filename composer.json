@@ -1,0 +1,28 @@
+{
+ "name": "oceanwebturk/support",
+ "description": "The OceanWebTurk Support Package",
+ "type": "library",
+ "keywords":["oceanwebturk","framework","support"],
+ "license": "MIT",
+ "homepage":"https://github.com/oceanwebturk/devtools",
+ "support":{
+  "source": "https://github.com/oceanwebturk/support"
+ },
+ "require":{
+  "php": ">=7.4"
+ },
+ "config":{
+   "optimize-autoloader": true,
+   "preferred-install": "dist",
+   "sort-packages": true,
+   "classmap-authoritative": true
+ },
+ "autoload":{
+  "psr-4":{
+    "OceanWT\\Support\\":"./"
+  },
+  "files":["./helpers.php"]
+ },
+ "minimum-stability":"dev",
+ "prefer-stable":true
+}
