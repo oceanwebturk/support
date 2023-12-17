@@ -27,9 +27,9 @@ class ServiceProvider
     
     public function __construct()
     {
-     $this->app=new OceanWT();
-     $this->db=new Database\DB();
-     $this->route=new Http\Route();
+     $this->app=new \OceanWT\OceanWT();
+     $this->db=new \OceanWT\Database\DB();
+     $this->route=new \OceanWT\Http\Route();
     }
 
     public static function default()
