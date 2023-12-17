@@ -1,6 +1,6 @@
 {
  "name": "oceanwebturk/support",
- "description": "The OceanWebTurk Support Package",
+ "description": "OceanWebTurk Support Package",
  "type": "library",
  "keywords":["oceanwebturk","framework","support"],
  "license": "MIT",
